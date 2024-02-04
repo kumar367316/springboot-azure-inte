@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class SpringbootAzureInteApplication {
 
 	public static void main(String[] args) {
+		System.out.println("New Deployment");
 		SpringApplication.run(SpringbootAzureInteApplication.class, args);
 	}
 
